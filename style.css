@@ -1,0 +1,57 @@
+body {
+  padding: 20px;
+  font-family: helvetica;
+  font-size: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700; /*bold*/
+  text-decoration: underline;
+}
+
+ button {
+   padding: 8px 12px; /*top bottom, left right*/
+   background: #444;
+   color: #fff;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer; /*little hand shows up*/
+   transition: 350ms all;
+ }
+
+ button:hover {
+   background-color: #222;
+   color: #f0f0f0;
+ }
+
+/* attribute selector */
+input[type="text"] {
+   padding: 7px 10px;
+   margin-right: 5px;
+}
+
+input[type="focus"]:focus {
+  background: #000;
+  color: #fff;
+}
+
+.container {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: solid 1px #444;
+}
+
+.img-container {
+  margin-top: 20px;
+}
+
+.tasks {
+  margin: 20px 0;
+}
+
+.tasks li {
+  margin: 5px 20px;
+  list-style-type: circle;
+}
